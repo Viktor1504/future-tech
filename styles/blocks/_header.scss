@@ -1,0 +1,14 @@
+@use "../helpers" as *;
+
+.header {
+  display: flex;
+  flex-direction: column;
+
+  &__promo {
+    text-align: center;
+    padding-block: rem(20);
+    border-bottom: var(--border);
+
+
+  }
+}
